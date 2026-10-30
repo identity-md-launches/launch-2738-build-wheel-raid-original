@@ -1,0 +1,7 @@
+# Explicit Git path budget: these generated paths contribute zero submitted bytes.
+**/node_modules/
+**/.vite/
+**/coverage/
+test/scratch/
+*.tsbuildinfo
+# dist/ is deliberately included: budget 2 MiB, inside the total 8 MiB cap.
